@@ -64,7 +64,7 @@ MongoDB implementation with following key collections: - Users (Customer and Adm
    1. Create .env file in root directory
    1. Add necessary environment variables (MONGO\_URI, PORT)
 1. Connecting to Mango DB:
-   1. ` `Install MongoDB locally or use a cloud-based MongoDB service.
+   1. Install MongoDB locally or use a cloud-based MongoDB service.
    1. Or use this DB "mongodb+srv://mmohamedmarzook0701:p7iXscaEX6AzrOuQ@cluster0.afnjy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 
