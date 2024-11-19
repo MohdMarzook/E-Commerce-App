@@ -151,7 +151,11 @@ Admin dashboard
 ![Aspose Words c7375676-f881-482d-8b40-b117fcb2cfbc 006](https://github.com/user-attachments/assets/35f70a79-3909-4ee2-b411-5718e6f46b07)
 ## <a name="screenshots-or-demo"></a>**10. Screenshots or Demo**
 1. Project Repository: https://github.com/MohdMarzook/E-Commerce-App
-1. Demo Video: https://github.com/MohdMarzook/E-Commerce-App
+1. Demo Video: 
+
+https://github.com/user-attachments/assets/873de65a-a863-4f0e-aad6-be9fb6d3d6dc
+
+
 ## <a name="known-issues"></a>**11. Known Issues**
 1. Currently implementing responsive design for mobile devices
 1. Payment gateway integration in progress
