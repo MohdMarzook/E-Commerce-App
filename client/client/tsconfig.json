@@ -1,23 +1,24 @@
-/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
+    "outDir": "./dist/out-tsc",    // Make sure this is where you want the compiled JS files
+    "allowJs": true,               // Allow JS files
+    "checkJs": false,              // Disable TypeScript's checking for JS files
     "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "noImplicitOverride": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "sourceMap": true,
-    "declaration": false,
+    "strict": false,               // Disable strict type checking
+    "noImplicitOverride": false,   // Disable implicit override checking
+    "noPropertyAccessFromIndexSignature": false,
+    "noImplicitReturns": false,
+    "noFallthroughCasesInSwitch": false,
+    "sourceMap": true,             // Keep source maps for debugging
+    "declaration": false,          // Don't generate type declaration files
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "ES2022",
-    "module": "ES2022",
+    "target": "ES2022",            // Set ES2022 as the target for JavaScript
+    "module": "ES2022",            // Set ES2022 module system
     "useDefineForClassFields": false,
     "lib": [
       "ES2022",
@@ -29,5 +30,12 @@
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true
-  }
+  },
+  "include": [
+    "src/**/*.js"                  // Include JS files in the project
+  ],
+  "exclude": [
+    "node_modules",                // Exclude node_modules
+    "src/**/*.ts"                  // Exclude TypeScript files
+  ]
 }

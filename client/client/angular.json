@@ -15,11 +15,11 @@
           "options": {
             "outputPath": "dist/client",
             "index": "src/index.html",
-            "main": "src/main.ts",
+            "main": "src/main.js",  // Change this to "main.js" from "main.ts"
             "polyfills": [
               "zone.js"
             ],
-            "tsConfig": "tsconfig.app.json",
+            "tsConfig": "tsconfig.app.json",  // If you're no longer using TypeScript, you might remove this or modify it
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -81,7 +81,7 @@
               "zone.js",
               "zone.js/testing"
             ],
-            "tsConfig": "tsconfig.spec.json",
+            "tsConfig": "tsconfig.spec.json",  // If you're using JS, modify this to use JavaScript testing configuration
             "assets": [
               "src/favicon.ico",
               "src/assets"
